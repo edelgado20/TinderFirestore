@@ -17,6 +17,8 @@
 		3FEB156227E92EC5007E76F4 /* TinderFirestoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB156127E92EC5007E76F4 /* TinderFirestoreUITests.swift */; };
 		3FEB156427E92EC5007E76F4 /* TinderFirestoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB156327E92EC5007E76F4 /* TinderFirestoreUITestsLaunchTests.swift */; };
 		3FEB157427E94B78007E76F4 /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB157327E94B78007E76F4 /* Extensions+UIView.swift */; };
+		3FEB157727E97109007E76F4 /* HomeBottomControlsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB157627E97109007E76F4 /* HomeBottomControlsStackView.swift */; };
+		3FEB157927EE9F7A007E76F4 /* TopNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB157827EE9F7A007E76F4 /* TopNavigationStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		3FEB156127E92EC5007E76F4 /* TinderFirestoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderFirestoreUITests.swift; sourceTree = "<group>"; };
 		3FEB156327E92EC5007E76F4 /* TinderFirestoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderFirestoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3FEB157327E94B78007E76F4 /* Extensions+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
+		3FEB157627E97109007E76F4 /* HomeBottomControlsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBottomControlsStackView.swift; sourceTree = "<group>"; };
+		3FEB157827EE9F7A007E76F4 /* TopNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		3FEB153F27E92EC1007E76F4 /* TinderFirestore */ = {
 			isa = PBXGroup;
 			children = (
+				3FEB157527E970B9007E76F4 /* Views */,
 				3FEB157027E948F1007E76F4 /* Extensions */,
 				3FEB154027E92EC1007E76F4 /* AppDelegate.swift */,
 				3FEB154227E92EC1007E76F4 /* SceneDelegate.swift */,
@@ -136,6 +141,15 @@
 				3FEB157327E94B78007E76F4 /* Extensions+UIView.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3FEB157527E970B9007E76F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3FEB157627E97109007E76F4 /* HomeBottomControlsStackView.swift */,
+				3FEB157827EE9F7A007E76F4 /* TopNavigationStackView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +285,8 @@
 			files = (
 				3FEB154527E92EC1007E76F4 /* ViewController.swift in Sources */,
 				3FEB154127E92EC1007E76F4 /* AppDelegate.swift in Sources */,
+				3FEB157727E97109007E76F4 /* HomeBottomControlsStackView.swift in Sources */,
+				3FEB157927EE9F7A007E76F4 /* TopNavigationStackView.swift in Sources */,
 				3FEB157427E94B78007E76F4 /* Extensions+UIView.swift in Sources */,
 				3FEB154327E92EC1007E76F4 /* SceneDelegate.swift in Sources */,
 			);
