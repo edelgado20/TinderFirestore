@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F6A3CA228067A6B00F88869 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A3CA128067A6B00F88869 /* CardView.swift */; };
 		3FEB154127E92EC1007E76F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB154027E92EC1007E76F4 /* AppDelegate.swift */; };
 		3FEB154327E92EC1007E76F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB154227E92EC1007E76F4 /* SceneDelegate.swift */; };
 		3FEB154527E92EC1007E76F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB154427E92EC1007E76F4 /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F6A3CA128067A6B00F88869 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		3FEB153D27E92EC1007E76F4 /* TinderFirestore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderFirestore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FEB154027E92EC1007E76F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FEB154227E92EC1007E76F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 			children = (
 				3FEB157627E97109007E76F4 /* HomeBottomControlsStackView.swift */,
 				3FEB157827EE9F7A007E76F4 /* TopNavigationStackView.swift */,
+				3F6A3CA128067A6B00F88869 /* CardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6A3CA228067A6B00F88869 /* CardView.swift in Sources */,
 				3FEB154527E92EC1007E76F4 /* ViewController.swift in Sources */,
 				3FEB154127E92EC1007E76F4 /* AppDelegate.swift in Sources */,
 				3FEB157727E97109007E76F4 /* HomeBottomControlsStackView.swift in Sources */,
